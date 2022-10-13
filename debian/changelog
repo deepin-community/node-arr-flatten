@@ -1,0 +1,41 @@
+node-arr-flatten (1.1.0-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update lintian overrides
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 09:04:49 +0200
+
+node-arr-flatten (1.1.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Update packaging:
+    - Use https in d/copyright's Format
+    - Bump dh compat to 10
+    - Clean d/rules
+    - Move to section javascript
+    - Bump std-ver to 4.1.1
+    - Make autopkgtest check the installed code
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sat, 25 Nov 2017 17:06:10 +0100
+
+node-arr-flatten (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #842000)
+
+ -- Sruthi Chandran <srud@disroot.org>  Tue, 25 Oct 2016 12:55:11 +0530
