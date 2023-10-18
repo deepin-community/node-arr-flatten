@@ -1,7 +1,9 @@
 # Tests and benchmark are expected to have long lines
-source: source-is-missing test.js line length is 998 characters (>512)
-source: source-is-missing benchmark/fixtures/med.js line length is 586 characters (>512)
-source: source-contains-prebuilt-javascript-object benchmark/fixtures/med.js line length is 586 characters (>512)
-source: source-contains-prebuilt-javascript-object test.js line length is 998 characters (>512)
-source: very-long-line-length-in-source-file benchmark/fixtures/med.js line length is 586 characters (>512)
-source: very-long-line-length-in-source-file test.js line length is 1002 characters (>512)
+source-is-missing benchmark/fixtures/med.js
+source-is-missing test.js
+source-contains-prebuilt-javascript-object benchmark/fixtures/med.js
+source-contains-prebuilt-javascript-object test.js
+update-debian-copyright 2016 vs 2021 [debian/copyright:11]
+very-long-line-length-in-source-file README.md line 1 is 711 characters long (>512)
+very-long-line-length-in-source-file benchmark/fixtures/med.js line 1 is 586 characters long (>512)
+very-long-line-length-in-source-file test.js line 22 is 1002 characters long (>512)
